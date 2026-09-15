@@ -1,17 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>Mon premier site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Studio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Bienvenue sur mon site</h1>
 
-    <p>Je découvre le développement web.</p>
+<header>
+    <nav class="navbar">
+        <h2>Nova Studio</h2>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#realisations">Réalisations</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <h2>À propos de moi</h2>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Créons votre présence en ligne</h1>
+            <p>Sites vitrines modernes, rapides et adaptés à tous les écrans.</p>
+            <a href="#contact" class="btn">Demander un devis</a>
+        </div>
+    </section>
+</header>
 
-    <p>Je m'appelle Myriam.</p>
+<main>
+
+<section id="services" class="section">
+    <h2>Nos Services</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Site vitrine</h3>
+            <p>Présentez votre activité avec un site élégant et professionnel.</p>
+        </div>
+
+        <div class="card">
+            <h3>Design Responsive</h3>
+            <p>Une expérience parfaite sur mobile, tablette et ordinateur.</p>
+        </div>
+
+        <div class="card">
+            <h3>Maintenance</h3>
+            <p>Mises à jour et accompagnement après la mise en ligne.</p>
+        </div>
+    </div>
+</section>
+
+<section id="apropos" class="section gray">
+    <h2>À propos</h2>
+    <p>
+        Nous accompagnons les entrepreneurs, associations et entreprises dans
+        la création de sites web modernes qui mettent leur activité en valeur.
+    </p>
+</section>
+
+<section id="realisations" class="section">
+    <h2>Réalisations</h2>
+
+    <div class="gallery">
+        <div class="box">Projet 1</div>
+        <div class="box">Projet 2</div>
+        <div class="box">Projet 3</div>
+    </div>
+</section>
+
+<section id="contact" class="section gray">
+    <h2>Contact</h2>
+
+    <form>
+        <input type="text" placeholder="Votre nom">
+        <input type="email" placeholder="Votre email">
+        <textarea placeholder="Votre message"></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Nova Studio - Tous droits réservés.</p>
+</footer>
+
 </body>
 </html>
